@@ -3,3 +3,15 @@ variable "ami" {
   
 }
 
+
+variable "instance_name" {
+  default = "mongodb"
+  
+}
+
+variable "map"{
+  default = {
+    Name="kishore"
+    Terraform="true"
+  }
+}
